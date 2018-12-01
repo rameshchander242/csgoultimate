@@ -1,0 +1,904 @@
+.headline {
+font-family: 'Lato', sans-serif;
+font-size:18px;
+text-align:center;
+font-weight:600;
+    text-transform: uppercase;
+    color: #4c4c4c;
+}
+.card-list .card {
+    width: 140px;
+    min-height: 195px;
+    max-height: 205px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.card {
+    position: relative;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.card .clubbadge {
+    position: absolute;
+}
+
+.card .nationflag {
+    position: absolute;
+}
+
+.card .avatar {
+    position: absolute;
+}
+
+.scard .ratingholder {
+    top: 30px;
+    left: 15px;
+    width: 27px;
+    height: 13px;
+    border-right: 1px solid white;
+    position: absolute;
+}
+
+.card .rating {
+    position: absolute;
+    text-align: center;
+    font-weight: 500;
+}
+
+.card .position {
+    position: absolute;
+    text-align: center;
+}
+
+.card .name {
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card .name .marquee {
+    position: relative;
+    white-space: nowrap;
+}
+
+.card .rifle {
+    position: absolute;
+}
+
+.card .rifle:after {
+    content: ' RIF';
+    font-weight: 400;
+}
+
+.card .gk .rifle:after {
+    content: ' DIV';
+    font-weight: 400;
+}
+
+.card .clutch {
+    position: absolute;
+}
+
+.card .clutch:after {
+    content: ' CLU';
+    font-weight: 400;
+}
+
+.card .gk .clutch:after {
+    content: ' HAN';
+    font-weight: 400;
+}
+
+.card .pistol {
+    position: absolute;
+}
+
+.card .pistol:after {
+    content: ' PIS';
+    font-weight: 400;
+}
+
+.card .gk .pistol:after {
+    content: ' KIC';
+    font-weight: 400;
+}
+
+.card .awp {
+    position: absolute;
+}
+
+.card .awp:after {
+    content: ' AWP';
+    font-weight: 400;
+}
+
+.card .gk .awp:after {
+    content: ' REF';
+    font-weight: 400;
+}
+
+.card .entry {
+    position: absolute;
+}
+
+.card .entry:after {
+    content: ' ENT';
+    font-weight: 400;
+}
+
+.card .gk .entry:after {
+    content: ' SPE';
+    font-weight: 400;
+}
+
+.card .iq {
+    position: absolute;
+}
+
+.card .iq:after {
+    content: ' IQ';
+    font-weight: 400;
+}
+
+.card.fifa13 .iq:after,
+.card.fifa14 .iq:after {
+    content: ' HEA';
+    font-weight: 400;
+}
+
+.card .gk .iq:after {
+    content: ' POS';
+    font-weight: 400;
+}
+
+.card .white {
+    color: #FFF;
+}
+
+.card.goldreg,
+.scard.goldreg {
+    color: #4D411D!important;
+    text-shadow: 0px 0px 0.01px rgba(77, 65, 29, 1)!important;
+}
+
+.card.goldreg .rating,
+.scard.goldreg .ratingholder {
+    border-right: 1px solid #4D411D!important;
+}
+
+.card.silverreg,
+.scard.silverreg {
+    color: #353535!important;
+    text-shadow: 0px 0px 0.01px rgba(53, 53, 53, 1)!important;
+}
+
+.card.silverreg .rating,
+.scard.silverreg .ratingholder {
+    border-right: 1px solid #353535!important;
+}
+
+.card.bronzereg,
+.scard.bronzereg {
+    color: #312D19!important;
+    text-shadow: 0px 0px 0.01px rgba(0, 0, 0, 1)!important;
+}
+
+.card.bronzereg .rating,
+.scard.bronzereg .ratingholder {
+    border-right: 1px solid #3B2E2A!important;
+}
+
+.goldif {
+    color: rgb(255, 203, 53)!important;
+    text-shadow: 0px 0px 2px rgba(255, 231, 153, 1)!important;
+}
+
+.silverif {
+    color: #C5CCCE!important;
+    text-shadow: 0px 0px 2px rgba(189, 189, 189, 1)!important;
+}
+
+.bronzeif {
+    color: #9E714D!important;
+    text-shadow: 0px 0px 0.2px rgba(196, 163, 136, 1)!important;
+}
+
+.card.blue {
+    color: #FFF;
+}
+
+.card.special {
+    color: #FFF;
+}
+
+.card.orange {
+    color: #FFF;
+}
+
+.card.purple {
+    color: #FFF;
+}
+
+.card.goldblue {
+    color: #FFF;
+}
+
+.card.silverblue {
+    color: #FFF;
+}
+
+.card.bronzeblue {
+    color: #FFF;
+}
+
+.scard {
+    display: block;
+    font-size: 14px;
+    text-shadow: 0px 0px 1px rgba(255, 255, 255, 1);
+    top: -5px;
+    left: -5px;
+    width: 150px;
+    height: 180px;
+}
+
+.scard.fifa13,
+.scard.fifa14,
+.scard.fifa15,
+.scard.fifa16 {
+    color: #FFFFFF;
+}
+
+.fifa14.red,
+.fifa14.legend,
+.fifa15.red,
+.fifa15.legend {
+    color: #9B8028;
+    text-shadow: 0px 0px 2px rgba(155, 128, 40, 0.5);
+}
+
+.builder .player-card,
+.club .player-card {
+    height: 195px;
+    width: 140px;
+}
+
+.scard .clubbadge {
+    top: 53px;
+    left: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+.scard .nationflag {
+    top: 81px;
+    left: 15px;
+    width: 25px;
+}
+
+.scard.worldcup .nationflag {
+    -webkit-mask-image: url(http://wefut.com/assets/images/worldcup/mask.png);
+    -webkit-mask-size: 100%;
+}
+
+.scard .avatar {
+    top: 30px;
+    left: 64px;
+    width: 70px;
+    height: 70px;
+}
+
+.goldif .avatar {
+    left: 63px;
+}
+
+.scard .ratingholder {
+    top: 30px;
+    left: 15px;
+    width: 27px;
+    height: 13px;
+    border-right: 1px solid white;
+    position: absolute;
+}
+
+.scard .rating {
+    font-size: 21px;
+    top: -5px;
+}
+
+.scard .position {
+    top: 27px;
+    left: 47px;
+    font-size: 12px;
+}
+
+.scard .name {
+    line-height: 28px;
+    text-transform: uppercase;
+    top: 7px;
+    left: 20px;
+    width: 100px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.scard .nonrare {
+    line-height: 28px;
+    text-transform: uppercase;
+    top: 4px;
+    left: 20px;
+    width: 100px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.scard .attributes {
+    font-size: 12px;
+}
+
+.scard .chemistry {
+    top: 100px;
+    left: 74px;
+    position: absolute;
+    text-shadow: 0px 0px 0px;
+    font-weight: 700;
+}
+
+.scard .chemistry:before {
+    content: 'Chem: ';
+}
+
+.red .chemistry,
+.legend .chemistry {
+    top: 98px
+}
+
+.scard .loyalty {
+    top: 99px;
+    left: 20px;
+    position: absolute;
+    text-shadow: 0px 0px 0px;
+    font-weight: 700;
+}
+
+.red .loyalty,
+.legend .loyalty {
+    top: 97px;
+}
+
+.scard .rifle {
+    top: 120px;
+    left: 26px;
+}
+
+.scard .clutch {
+    top: 140px;
+    left: 26px;
+}
+
+.scard .pistol {
+    top: 159px;
+    left: 26px;
+}
+
+.scard .awp {
+    top: 120px;
+    left: 74px;
+}
+
+.scard .entry {
+    top: 140px;
+    left: 74px;
+}
+
+.scard .iq {
+    top: 159px;
+    left: 74px;
+}
+
+.scard .red .rifle,
+.scard.legend .rifle {
+    top: 116px;
+    left: 26px;
+}
+
+.scard .red .clutch,
+.scard.legend .clutch {
+    top: 135px;
+    left: 26px;
+}
+
+.scard .red .pistol,
+.scard.legend .pistol {
+    top: 154px;
+    left: 26px;
+}
+
+.scard .red .awp,
+.scard.legend .awp {
+    top: 116px;
+    left: 74px;
+}
+
+.scard .red .entry,
+.scard.legend .entry {
+    top: 135px;
+    left: 74px;
+}
+
+.scard .red .iq,
+.scard.legend .iq {
+    top: 154px;
+    left: 74px;
+}
+
+.player .card.fifa13 .clubbadge {
+    top: 113px;
+    left: 25px;
+    width: 60px;
+    height: 60px;
+}
+
+.player .card.fifa13 .nationflag {
+    top: 180px;
+    left: 25px;
+    width: 60px;
+    height: 36px;
+}
+
+.player .card.fifa13 .avatar {
+    top: 95px;
+    left: 88px;
+    width: 140px;
+    height: 140px;
+}
+
+.player .card.fifa13 .rating {
+    top: 30px;
+    left: 15px;
+    width: 64px;
+    font-size: 50px;
+    border: 0;
+}
+
+.player .card.fifa13 .position {
+    top: 65px;
+    left: 15px;
+    width: 64px;
+}
+
+.player .card.fifa13 .name {
+    top: 22px;
+    left: 105px;
+    width: 120px;
+    font-size: 20px;
+}
+
+.player .card.fifa13 .rifle {
+    top: 244px;
+    left: 26px;
+}
+
+.player .card.fifa13 .clutch {
+    top: 280px;
+    left: 26px;
+}
+
+.player .card.fifa13 .pistol {
+    top: 316px;
+    left: 26px;
+}
+
+.player .card.fifa13 .awp {
+    top: 244px;
+    left: 130px;
+}
+
+.player .card.fifa13 .entry {
+    top: 280px;
+    left: 130px;
+}
+
+.player .card.fifa13 .iq {
+    top: 316px;
+    left: 130px;
+}
+
+.scard.fifa13 .clubbadge {
+    top: 73px;
+    left: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+.scard.fifa13 .nationflag {
+    top: 106px;
+    left: 15px;
+    width: 25px;
+}
+
+.scard.fifa13 .avatar {
+    top: 49px;
+    left: 54px;
+    width: 80px;
+    height: 80px;
+}
+
+.scard.fifa13 .ratingholder {
+    top: 17px;
+    left: 12px;
+    width: 27px;
+    height: 13px;
+    position: absolute;
+    border: 0;
+}
+
+.scard.fifa13 .rating {
+    font-size: 26px;
+}
+
+.scard.fifa13 .position {
+    top: 30px;
+    left: 20px;
+    font-size: 12px;
+}
+
+.scard.fifa13 .name {
+    line-height: 28px;
+    text-transform: uppercase;
+    top: 7px;
+    left: 48px;
+    width: 100px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.scard.fifa13 .rifle {
+    top: 130px;
+    left: 16px;
+}
+
+.scard.fifa13 .clutch {
+    top: 150px;
+    left: 16px;
+}
+
+.scard.fifa13 .pistol {
+    top: 169px;
+    left: 16px;
+}
+
+.scard.fifa13 .awp {
+    top: 130px;
+    left: 79px;
+}
+
+.scard.fifa13 .entry {
+    top: 150px;
+    left: 79px;
+}
+
+.scard.fifa13 .iq {
+    top: 169px;
+    left: 79px;
+}
+
+.player .card {
+    display: block;
+    font-size: 22px;
+    width: 238px;
+    color: #FFF;
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, 1);
+}
+
+.player .card.red,
+.player .card.legend {
+    display: block;
+    font-size: 22px;
+    width: 238px;
+    color: #9B8028;
+    text-shadow: 0px 0px 2px rgba(155, 128, 40, 0.5);
+}
+
+.player .player-card {
+    width: 238px;
+    height: 354px;
+}
+
+.player .card .clubbadge {
+    top: 102px;
+    left: 42px;
+    width: 45px;
+    height: 45px;
+}
+
+.player .red .clubbadge,
+.player .legend .clubbadge {
+    top: 92px!important;
+}
+
+.player .card .nationflag {
+    top: 151px;
+    left: 42px;
+    width: 45px;
+    height: 27px;
+}
+
+.player .worldcup .nationflag {
+    -webkit-mask-image: url(http://static.wefut.com/assets/images/worldcup/mask.png);
+    -webkit-mask-size: 100%;
+}
+
+.player .red .nationflag,
+.player .legend .nationflag {
+    top: 146px!important;
+}
+
+.player .card .avatar {
+    top: 55px;
+    left: 100px;
+    width: 128px;
+    height: 128px;
+}
+
+.player .goldif .avatar {
+    left: 98px;
+}
+
+.player .card .rating {
+    top: 56px;
+    left: 19px;
+    width: 55px;
+    height: 22px;
+    font-size: 36px;
+    border-right: 1px solid white;
+}
+
+.player .red .rating,
+.player .legend .rating {
+    top: 58px;
+    font-size: 33px;
+}
+
+.player .card .position {
+    top: 56px;
+    left: 77px;
+    font-size: 20px;
+    width: 46px;
+    line-height: 22px;
+}
+
+.player .red .position,
+.player .legend .position {
+    top: 58px
+}
+
+.player .card .name {
+    line-height: 28px;
+    text-transform: uppercase;
+    top: 24px;
+    left: 29px;
+    width: 180px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.player .card .nonrare {
+    line-height: 28px;
+    text-transform: uppercase;
+    top: 20px;
+    left: 29px;
+    width: 180px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.player .card .upgrades {
+    position: absolute;
+    font-size: 12px;
+    top: 182px;
+}
+
+.player .card .upgrades .rifleupgrade {
+    left: 50px;
+    position: absolute;
+    width: 70px;
+}
+
+.player .card .upgrades .clutchupgrade {
+    left: 50px;
+    top: 17px;
+    position: absolute;
+    width: 70px;
+}
+
+.player .card .upgrades .pistolupgrade {
+    left: 100px;
+    position: absolute;
+    width: 70px;
+}
+
+.player .card .upgrades .awpupgrade {
+    left: 100px;
+    position: absolute;
+    width: 70px;
+    top: 17px;
+}
+
+.player .card .upgrades .entryupgrade {
+    left: 150px;
+    position: absolute;
+    width: 70px;
+}
+
+.player .card .upgrades .iqupgrade {
+    left: 150px;
+    position: absolute;
+    width: 70px;
+    top: 17px;
+}
+
+.player .card .rifleupgrade:after {
+    content: ' PAC';
+    font-weight: 400;
+}
+
+.player .card .gk .rifleupgrade:after {
+    content: ' DIV';
+    font-weight: 400;
+}
+
+.player .card .clutchupgrade:after {
+    content: ' SHO';
+    font-weight: 400;
+}
+
+.player .card .gk .clutchupgrade:after {
+    content: ' HAN';
+    font-weight: 400;
+}
+
+.player .card .pistolupgrade:after {
+    content: ' PAS';
+    font-weight: 400;
+}
+
+.player .card .gk .pistolupgrade:after {
+    content: ' KIC';
+    font-weight: 400;
+}
+
+.player .card .awpupgrade:after {
+    content: ' DRI';
+    font-weight: 400;
+}
+
+.player .card .gk .awpupgrade:after {
+    content: ' REF';
+    font-weight: 400;
+}
+
+.player .card .entryupgrade:after {
+    content: ' DEF';
+    font-weight: 400;
+}
+
+.player .card .gk .entryupgrade:after {
+    content: ' SPE';
+    font-weight: 400;
+}
+
+.player .card .iqupgrade:after {
+    content: ' HEA';
+    font-weight: 400;
+}
+
+.player .card .gk .iqupgrade:after {
+    content: ' POS';
+    font-weight: 400;
+}
+
+.player .card .attributes {
+    font-weight: 500;
+}
+
+.player .card .rifle {
+    top: 226px;
+    left: 46px;
+}
+
+.player .card .clutch {
+    top: 261px;
+    left: 46px;
+}
+
+.player .card .pistol {
+    top: 296px;
+    left: 46px;
+}
+
+.player .card .awp {
+    top: 226px;
+    left: 130px;
+}
+
+.player .card .entry {
+    top: 261px;
+    left: 130px;
+}
+
+.player .card .iq {
+    top: 296px;
+    left: 130px;
+}
+
+.player .red .rifle,
+.player .legend .rifle {
+    top: 219px;
+    left: 46px;
+}
+
+.player .red .clutch,
+.player .legend .clutch {
+    top: 253px;
+    left: 46px;
+}
+
+.player .red .pistol,
+.player .legend .pistol {
+    top: 287px;
+    left: 46px;
+}
+
+.player .red .awp,
+.player .legend .awp {
+    top: 219px;
+    left: 130px;
+}
+
+.player .red .entry,
+.player .legend .entry {
+    top: 253px;
+    left: 130px;
+}
+
+.player .red .iq,
+.player .legend .iq {
+    top: 287px;
+    left: 130px;
+}
+
+@font-face {
+    font-family: 'Knul-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/knul-bold-webfont.eot?');
+    src: url('/assets/fonts/knul-bold-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/knul-bold-webfont.woff?') format('woff'), url('/assets/fonts/knul-bold-webfont.ttf?') format('truetype'), url('/assets/fonts/knul-bold-webfont.svg#svgFontName') format('svg');
+}
+
+@font-face {
+    font-family: 'Knul-Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/knul-medium-webfont.eot?');
+    src: url('/assets/fonts/knul-medium-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/knul-medium-webfont.woff?') format('woff'), url('/assets/fonts/knul-medium-webfont.ttf?') format('truetype'), url('/assets/fonts/knul-medium-webfont.svg#svgFontName') format('svg');
+}
+
+@font-face {
+    font-family: 'Knul-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/knul-regular-webfont.eot?');
+    src: url('/assets/fonts/knul-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/knul-regular-webfont.woff?') format('woff'), url('/assets/fonts/knul-regular-webfont.ttf?') format('truetype'), url('/assets/fonts/knul-regular-webfont.svg#svgFontName') format('svg');
+}
+
+
+
+.card .rifle:after,
+.card .clutch:after,
+.card .pistol:after,
+.card .awp:after,
+.card .defending:after,
+.card .heading:after {
+    font-family: 'Knul-Medium';
+}

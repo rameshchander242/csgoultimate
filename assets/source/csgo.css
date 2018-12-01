@@ -1,0 +1,599 @@
+.card.csgo {
+    font-family: 'Fjalla One', sans-serif;
+    color: #000;
+    text-shadow: none!important;
+    max-width: 227px;
+}
+
+.card.csgo .player-card {
+    width: 227px;
+    height: auto;
+}
+
+.card.csgo .rating {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    border: 0!important;
+    top: 22px;
+    left: 42px;
+    width: auto!important;
+    font-weight: bold;
+}
+
+.card.csgo.onestowatch {
+    color: #C7CFDB!important;
+}
+
+.card.csgo.bluepurple {
+    color: #FFFFFF!important;
+}
+
+.card.csgo.premiumsbc {
+    color: #FFFFFF!important;
+}
+
+.card.csgo.whitepurple {
+    color: #FFFFFF!important;
+}
+
+.card.csgo.whitepurple .name,
+.card.csgo.whitepurple .chemistry,
+.card.csgo.whitepurple .chemstyle {
+    color: #754196!important;
+}
+
+.card.csgo.redgold {
+    color: #846525!important;
+}
+
+.card.csgo.redsilver {
+    color: #5F6364!important;
+}
+
+.card.csgo.redbronze {
+    color: #7D5134!important;
+}
+
+.card.csgo.redgold .rating,
+.card.csgo.redgold .position,
+.card.csgo.redsilver .rating,
+.card.csgo.redsilver .position,
+.card.csgo.redbronze .rating,
+.card.csgo.redbronze .position {
+    color: #FFFFFF!important;
+}
+
+.card.csgo.goldrare {
+    color: #452D19!important;
+}
+
+.card.csgo.silverrare {
+    color: #393C43!important;
+}
+
+.card.csgo.bronzerare {
+    color: #4A3019!important;
+}
+
+.card.csgo.legend {
+    color: #5B4722!important;
+}
+
+.card.csgo.goldif {
+    color: #F9E99E!important;
+}
+
+.card.csgo.silverif {
+    color: #C4C8C9!important;
+}
+
+.card.csgo.bronzeif {
+    color: #B78553!important;
+}
+
+.card.csgo.purple {
+    color: #9D79E3!important;
+}
+
+.card.csgo.purple .rating,
+.card.csgo.purple .position {
+    color: #000000!important;
+}
+
+.card.csgo.pink {
+    color: #E574A0!important;
+}
+
+.card.csgo.pink .rating,
+.card.csgo.pink .position {
+    color: #000000!important;
+}
+
+.card.csgo.pinkgold {
+    color: #E574A0!important;
+}
+
+.card.csgo.pinkgold .rating,
+.card.csgo.pinkgold .position,
+.card.csgo.pinkgold .name,
+.card.csgo.pinkgold .chemstyle {
+    color: #000000!important;
+}
+
+.card.csgo.blackgold {
+    color: #FFFFFF!important;
+}
+
+.card.csgo.blackgold .name,
+.card.csgo.blackgold .chemistry,
+.card.csgo.blackgold .chemstyle {
+    color: #000000!important;
+}
+
+.card.csgo.proplayer {
+    color: #66CDCC!important;
+}
+
+.card.csgo.proplayer .rating,
+.card.csgo.proplayer .position {
+    color: #000000!important;
+}
+
+.card.csgo.promo {
+    color: #1A1381!important;
+}
+
+.card.csgo.promo .name,
+.card.csgo.promo .chemstyle,
+.card.csgo.promo .chemistry {
+    color: #FFFFFF!important;
+}
+
+.card.csgo.promo2 {
+    color: #FFFFFF!important;
+}
+
+.card.csgo.promo2 .rating,
+.card.csgo.promo2 .position {
+    color: #145C9C!important;
+}
+
+.card.csgo.motm {
+    color: #FFFFFF!important;
+}
+
+.card.csgo.motm .rating,
+.card.csgo.motm .position {
+    color: #8A2C00!important;
+}
+
+.card.csgo.bluemotm {
+    color: #FFFFFF!important;
+}
+
+.card.csgo.bluemotm .rating,
+.card.csgo.bluemotm .position {
+    color: #003482!important;
+}
+
+.card.csgo.redmotm {
+    color: #FFFFFF!important;
+}
+
+.card.csgo.redmotm .rating,
+.card.csgo.redmotm .position {
+    color: #7A0600!important;
+}
+
+.card.csgo.green {
+    color: #1B6B34!important;
+}
+
+.card.csgo.green .rating,
+.card.csgo.green .position {
+    color: #104921!important;
+}
+
+.card.csgo.halloween {
+    color: #D36C12!important;
+}
+
+.card.csgo.halloween .name,
+.card.csgo.halloween .chemstyle,
+.card.csgo.halloween .chemistry {
+    color: #000000!important;
+}
+
+.card.csgo.movember {
+    color: #AEA590!important;
+}
+
+.card.csgo.movember .rating,
+.card.csgo.movember .position,
+.card.csgo.movember .name,
+.card.csgo.movember .chemstyle,
+.card.csgo.movember .chemistry {
+    color: #3C2313!important;
+}
+
+.card.csgo.special {
+    color: #EDF5F5!important;
+}
+
+.card.csgo.imotm {
+    color: #EDF5F5!important;
+}
+
+.card.csgo.toty {
+    color: #F9E99E!important;
+}
+
+.card.csgo.goldblue {
+    color: #F9E99E!important;
+}
+
+.card.csgo.silverblue {
+    color: #E1E9EE!important;
+}
+
+.card.csgo.bronzeblue {
+    color: #DEB89E!important;
+}
+
+.card.csgo.goldblue .name,
+.card.csgo.silverblue .name,
+.card.csgo.bronzeblue .name,
+.card.csgo.goldblue .chemistry,
+.card.csgo.silverblue .chemistry,
+.card.csgo.bronzeblue .chemistry,
+.card.csgo.goldblue .chemstyle,
+.card.csgo.silverblue .chemstyle,
+.card.csgo.bronzeblue .chemstyle {
+    color: #000C35!important;
+}
+
+.card.csgo.goldif .rating,
+.card.csgo.goldif .position {
+    color: #4D3624;
+}
+
+.card.csgo.goldif .name {
+    color: #F9E99E;
+}
+
+.card.csgo.silverif .name {
+    color: #C4C8C9;
+}
+
+.card.csgo.bronzeif .name {
+    color: #B78553;
+}
+
+.card.csgo.silverif .rating,
+.card.csgo.silverif .position {
+    color: #3D3E42;
+}
+
+.card.csgo.bronzeif .rating,
+.card.csgo.bronzeif .position {
+    color: #452B1A;
+}
+
+.card.csgo .position {
+    top: 63px;
+    left: 36px;
+    font-size: 20px;
+    width: 47px;
+    line-height: 22px;
+}
+
+.card.csgo .avatarholder {
+    top: 41px;
+    left: 88px;
+    width: 133px;
+    height: 133px;
+    position: absolute;
+}
+
+.card.csgo .avatar {
+    top: 0;
+    left: 0;
+    width: 133px;
+    height: 133px;
+}
+
+.card.csgo .clubbadge {
+    top: 90px!important;
+    left: 39px;
+    width: 46px;
+    height: 46px;
+}
+
+.card.csgo .nationflag {
+    top: 140px!important;
+    left: 38px;
+    height: 29px;
+    width: auto;
+}
+
+.card.csgo .attributes {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card.csgo .rifle {
+    top: 205px;
+    left: 36px;
+}
+
+.card.csgo .awp {
+    top: 205px;
+    left: 136px;
+}
+
+.card.csgo .clutch {
+    top: 232px;
+    left: 36px;
+}
+
+.card.csgo .entry {
+    top: 232px;
+    left: 136px;
+}
+
+.card.csgo .pistol {
+    top: 258px;
+    left: 36px;
+}
+
+.card.csgo .iq {
+    top: 258px;
+    left: 136px;
+}
+
+.card.csgo .name {
+    line-height: 28px;
+    text-transform: uppercase;
+    top: 174px;
+    left: 0px;
+    width: 100%;
+    font-size: 22px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.card.csgo .chemstyle {
+    line-height: 28px;
+    text-transform: uppercase;
+    top: 293px;
+    left: 5px;
+    width: 220px;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+}
+
+.card.csgo .chemstylename {
+    padding-left: 4px;
+}
+
+.scard.csgo {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-shadow: none!important;
+    height: 200px;
+    width: 135px;
+}
+
+.scard.csgo.legend {
+    color: #6b4a15;
+}
+
+.builder .card.csgo {
+    height: 200px;
+    width: 135px;
+    margin-left: 2px;
+    margin-top: -6px;
+}
+
+.scard.csgo .player-card {
+    height: 200px;
+    width: 135px;
+}
+
+.scard.csgo .rating {
+    font-size: 21px;
+    top: -13px;
+    left: 10px;
+}
+
+.scard.csgo .ratingholder {
+    border: 0;
+}
+
+.scard.csgo .position {
+    top: 33px;
+    left: 17px;
+    font-size: 14px;
+    width: 40px;
+    font-weight: bold;
+}
+
+.scard.csgo.goldrare {
+    color: #452D19!important;
+}
+
+.scard.csgo.silverrare {
+    color: #393C43!important;
+}
+
+.scard.csgo.bronzerare {
+    color: #4A3019!important;
+}
+
+.scard.csgo.legend {
+    color: #5B4722!important;
+}
+
+.scard.csgo.goldif {
+    color: #F9E99E!important;
+}
+
+.scard.csgo.silverif {
+    color: #C4C8C9!important;
+}
+
+.scard.csgo.bronzeif {
+    color: #B78553!important;
+}
+
+.scard.csgo.special {
+    color: #EDF5F5!important;
+}
+
+.scard.csgo.imotm {
+    color: #EDF5F5!important;
+}
+
+.scard.csgo.goldblue {
+    color: #EAD36E!important;
+}
+
+.scard.csgo.silverblue {
+    color: #E1E9EE!important;
+}
+
+.scard.csgo.bronzeblue {
+    color: #DEB89E!important;
+}
+
+.scard.csgo.goldblue .name,
+.scard.csgo.silverblue .name,
+.scard.csgo.bronzeblue .name {
+    color: #000C35!important;
+}
+
+.scard.csgo .clubbadge {
+    top: 53px!important;
+    left: 25px;
+    width: 25px;
+    height: 25px;
+}
+
+.scard.csgo .nationflag {
+    top: 81px!important;
+    left: 25px;
+    width: 25px;
+    height: auto;
+}
+
+.scard.csgo .avatarholder {
+    top: 26px;
+    left: 56px;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.scard.csgo .avatar {
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 75px;
+}
+
+.scard.csgo .name {
+    line-height: 28px;
+    text-transform: uppercase;
+    top: 95px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.scard.csgo .attributes {
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+}
+
+.scard.csgo .rifle {
+    top: 116px;
+    left: 24px;
+}
+
+.scard.csgo .awp {
+    top: 116px;
+    left: 79px;
+}
+
+.scard.csgo .clutch {
+    top: 132px;
+    left: 24px;
+}
+
+.scard.csgo .entry {
+    top: 132px;
+    left: 79px;
+}
+
+.scard.csgo .pistol {
+    top: 148px;
+    left: 24px;
+}
+
+.scard.csgo .iq {
+    top: 148px;
+    left: 79px;
+}
+
+.scard.csgo .chemistry {
+    top: 165px;
+    left: 60px;
+    position: absolute;
+    text-shadow: 0px 0px 0px;
+    font-weight: bold;
+    font-family: 'Knul-Bold';
+    font-size: 13px;
+}
+
+.scard.csgo .loyalty {
+    top: 164px;
+    left: 40px;
+}
+
+.builder-background.squad.csgo {
+    /*background: url(../images/fut17/cardholder.png?172);*/
+    height: 200px;
+    width: 135px;
+    left: -3px;
+    top: -11px;
+}
+
+.builder-background.sub.csgo {
+    /*background: url(../images/fut17/cardholder.png?172);*/
+    height: 200px;
+    width: 135px;
+    margin-left: -3px;
+    margin-top: -11px;
+}
+
+.card.csgo .rifle:after,
+.card.csgo .clutch:after,
+.card.csgo .pistol:after,
+.card.csgo .awp:after,
+.card.csgo .entry:after,
+.card.csgo .iq:after {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 21px;
+}
+
+.scard.csgo .rifle:after,
+.scard.csgo .shooting:after,
+.scard.csgo .passing:after,
+.scard.csgo .dribbling:after,
+.scard.csgo .defending:after,
+.scard.csgo .heading:after {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 14px;
+}

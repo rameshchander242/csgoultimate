@@ -1,0 +1,459 @@
+.card.csgo {
+  font-family: 'Fjalla One', sans-serif;
+  color: #000;
+  text-shadow: none !important;
+  max-width: 227px;
+  .player-card {
+    width: 227px;
+    height: auto;
+    padding: 2px;
+  }
+  .rating {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    border: 0 !important;
+    top: 22px;
+    left: 42px;
+    width: auto !important;
+    font-weight: bold;
+  }
+  &.onestowatch {
+    color: #C7CFDB !important;
+  }
+  &.bluepurple, &.premiumsbc {
+    color: #FFFFFF !important;
+  }
+  &.whitepurple {
+    color: #FFFFFF !important;
+    .name, .chemistry, .chemstyle {
+      color: #754196 !important;
+    }
+  }
+  &.redgold {
+    color: #846525 !important;
+  }
+  &.redsilver {
+    color: #5F6364 !important;
+  }
+  &.redbronze {
+    color: #7D5134 !important;
+  }
+  &.redgold {
+    .rating, .position {
+      color: #FFFFFF !important;
+    }
+  }
+  &.redsilver {
+    .rating, .position {
+      color: #FFFFFF !important;
+    }
+  }
+  &.redbronze {
+    .rating, .position {
+      color: #FFFFFF !important;
+    }
+  }
+  &.goldrare {
+    color: #452D19 !important;
+  }
+  &.silverrare {
+    color: #393C43 !important;
+  }
+  &.bronzerare {
+    color: #4A3019 !important;
+  }
+  &.legend {
+    color: #5B4722 !important;
+  }
+  &.goldif {
+    color: #F9E99E !important;
+  }
+  &.silverif {
+    color: #C4C8C9 !important;
+  }
+  &.bronzeif {
+    color: #B78553 !important;
+  }
+  &.purple {
+    color: #9D79E3 !important;
+    .rating, .position {
+      color: #000000 !important;
+    }
+  }
+  &.pink {
+    color: #E574A0 !important;
+    .rating, .position {
+      color: #000000 !important;
+    }
+  }
+  &.pinkgold {
+    color: #E574A0 !important;
+    .rating, .position, .name, .chemstyle {
+      color: #000000 !important;
+    }
+  }
+  &.blackgold {
+    color: #FFFFFF !important;
+    .name, .chemistry, .chemstyle {
+      color: #000000 !important;
+    }
+  }
+  &.proplayer {
+    color: #66CDCC !important;
+    .rating, .position {
+      color: #000000 !important;
+    }
+  }
+  &.promo {
+    color: #1A1381 !important;
+    .name, .chemstyle, .chemistry {
+      color: #FFFFFF !important;
+    }
+  }
+  &.promo2 {
+    color: #FFFFFF !important;
+    .rating, .position {
+      color: #145C9C !important;
+    }
+  }
+  &.motm {
+    color: #FFFFFF !important;
+    .rating, .position {
+      color: #8A2C00 !important;
+    }
+  }
+  &.bluemotm {
+    color: #FFFFFF !important;
+    .rating, .position {
+      color: #003482 !important;
+    }
+  }
+  &.redmotm {
+    color: #FFFFFF !important;
+    .rating, .position {
+      color: #7A0600 !important;
+    }
+  }
+  &.green {
+    color: #1B6B34 !important;
+    .rating, .position {
+      color: #104921 !important;
+    }
+  }
+  &.halloween {
+    color: #D36C12 !important;
+    .name, .chemstyle, .chemistry {
+      color: #000000 !important;
+    }
+  }
+  &.movember {
+    color: #AEA590 !important;
+    .rating, .position, .name, .chemstyle, .chemistry {
+      color: #3C2313 !important;
+    }
+  }
+  &.special, &.imotm {
+    color: #EDF5F5 !important;
+  }
+  &.toty, &.goldblue {
+    color: #F9E99E !important;
+  }
+  &.silverblue {
+    color: #E1E9EE !important;
+  }
+  &.bronzeblue {
+    color: #DEB89E !important;
+  }
+  &.goldblue .name, &.silverblue .name, &.bronzeblue .name, &.goldblue .chemistry, &.silverblue .chemistry, &.bronzeblue .chemistry, &.goldblue .chemstyle, &.silverblue .chemstyle, &.bronzeblue .chemstyle {
+    color: #000C35 !important;
+  }
+  &.goldif {
+    .rating, .position {
+      color: #4D3624;
+    }
+    .name {
+      color: #F9E99E;
+    }
+  }
+  &.silverif .name {
+    color: #C4C8C9;
+  }
+  &.bronzeif .name {
+    color: #B78553;
+  }
+  &.silverif {
+    .rating, .position {
+      color: #3D3E42;
+    }
+  }
+  &.bronzeif {
+    .rating, .position {
+      color: #452B1A;
+    }
+  }
+  .position {
+    top: 63px;
+    left: 36px;
+    font-size: 20px;
+    width: 47px;
+    line-height: 22px;
+  }
+  .avatarholder {
+    top: 41px;
+    left: 88px;
+    width: 133px;
+    height: 133px;
+    position: absolute;
+  }
+  .avatar {
+    top: 0;
+    left: 0;
+    width: 133px;
+    height: 133px;
+  }
+  .clubbadge {
+    top: 90px !important;
+    left: 39px;
+    width: 46px;
+    height: 46px;
+  }
+  .nationflag {
+    top: 140px !important;
+    left: 38px;
+    height: 29px;
+    width: 45px;
+  }
+  .attributes {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .rifle {
+    top: 205px;
+    left: 36px;
+  }
+  .awp {
+    top: 205px;
+    left: 136px;
+  }
+  .clutch {
+    top: 232px;
+    left: 36px;
+  }
+  .entry {
+    top: 232px;
+    left: 136px;
+  }
+  .pistol {
+    top: 258px;
+    left: 36px;
+  }
+  .iq {
+    top: 258px;
+    left: 136px;
+  }
+  .name {
+    line-height: 28px;
+    text-transform: uppercase;
+    top: 174px;
+    left: 0px;
+    width: 100%;
+    font-size: 22px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+  }
+  .chemstyle {
+    line-height: 28px;
+    text-transform: uppercase;
+    top: 293px;
+    left: 5px;
+    width: 220px;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+  }
+  .chemstylename {
+    padding-left: 4px;
+  }
+}
+
+.scard.csgo {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-shadow: none !important;
+  height: 200px;
+  width: 135px;
+  &.legend {
+    color: #6b4a15;
+  }
+}
+
+.builder .card.csgo {
+  height: 200px;
+  width: 135px;
+  margin-left: 2px;
+  margin-top: -6px;
+}
+
+.scard.csgo {
+  .player-card {
+    height: 200px;
+    width: 135px;
+  }
+  .rating {
+    font-size: 21px;
+    top: -13px;
+    left: 10px;
+  }
+  .ratingholder {
+    border: 0;
+  }
+  .position {
+    top: 33px;
+    left: 17px;
+    font-size: 14px;
+    width: 40px;
+    font-weight: bold;
+  }
+  &.goldrare {
+    color: #452D19 !important;
+  }
+  &.silverrare {
+    color: #393C43 !important;
+  }
+  &.bronzerare {
+    color: #4A3019 !important;
+  }
+  &.legend {
+    color: #5B4722 !important;
+  }
+  &.goldif {
+    color: #F9E99E !important;
+  }
+  &.silverif {
+    color: #C4C8C9 !important;
+  }
+  &.bronzeif {
+    color: #B78553 !important;
+  }
+  &.special, &.imotm {
+    color: #EDF5F5 !important;
+  }
+  &.goldblue {
+    color: #EAD36E !important;
+  }
+  &.silverblue {
+    color: #E1E9EE !important;
+  }
+  &.bronzeblue {
+    color: #DEB89E !important;
+  }
+  &.goldblue .name, &.silverblue .name, &.bronzeblue .name {
+    color: #000C35 !important;
+  }
+  .clubbadge {
+    top: 53px !important;
+    left: 25px;
+    width: 25px;
+    height: 25px;
+  }
+  .nationflag {
+    top: 81px !important;
+    left: 25px;
+    width: 25px;
+    height: auto;
+  }
+  .avatarholder {
+    top: 26px;
+    left: 56px;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    overflow: hidden;
+  }
+  .avatar {
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 75px;
+  }
+  .name {
+    line-height: 28px;
+    text-transform: uppercase;
+    top: 95px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .attributes {
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+  }
+  .rifle {
+    top: 116px;
+    left: 24px;
+  }
+  .awp {
+    top: 116px;
+    left: 79px;
+  }
+  .clutch {
+    top: 132px;
+    left: 24px;
+  }
+  .entry {
+    top: 132px;
+    left: 79px;
+  }
+  .pistol {
+    top: 148px;
+    left: 24px;
+  }
+  .iq {
+    top: 148px;
+    left: 79px;
+  }
+  .chemistry {
+    top: 165px;
+    left: 60px;
+    position: absolute;
+    text-shadow: 0px 0px 0px;
+    font-weight: bold;
+    font-family: 'Knul-Bold';
+    font-size: 13px;
+  }
+  .loyalty {
+    top: 164px;
+    left: 40px;
+  }
+}
+
+.builder-background {
+  &.squad.csgo {
+    /*background: url(../images/fut17/cardholder.png?172);*/
+    height: 200px;
+    width: 135px;
+    left: -3px;
+    top: -11px;
+  }
+  &.sub.csgo {
+    /*background: url(../images/fut17/cardholder.png?172);*/
+    height: 200px;
+    width: 135px;
+    margin-left: -3px;
+    margin-top: -11px;
+  }
+}
+
+.card.csgo {
+  .rifle:after, .clutch:after, .pistol:after, .awp:after, .entry:after, .iq:after {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 21px;
+  }
+}
+
+.scard.csgo {
+  .rifle:after, .shooting:after, .passing:after, .dribbling:after, .defending:after, .heading:after {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 14px;
+  }
+}

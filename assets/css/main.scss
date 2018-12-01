@@ -1,0 +1,279 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #EFEFEF;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1140px) {
+  .playersonline {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #page-header {
+    padding: 1px 0 1px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .noti, .giveaway, #page-header {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .navbar-toggleable .navbar-nav {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #wrapper {
+  /*  background: url(/img/mobilebg.jpg) !important;*/
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .promoblock {
+    display: none !important;
+  }
+}
+
+#page-sidebar {
+  font-size: 15px !important;
+}
+
+#wrapper {
+/*  background: url(/img/header.jpg);
+  background-size: cover;*/
+}
+
+.coin {
+  margin-top: -2px;
+  width: 24px;
+  margin-right: 5px;
+}
+
+.coinamount {
+  font-size: 16px;
+}
+
+.promoblock {
+  display: block;
+  position: absolute;
+  width: 627px;
+  left: 30%;
+  top: 110px;
+  height: 113px;
+  background-image: url("/img/livecount.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  float: left;
+  z-index: 1;
+  color: #b7b7b8;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 0px 0px 19px #fff;
+}
+
+.fontsize15 {
+  font-size: 15px;
+}
+
+.padding-right {
+  padding-right: 15px;
+}
+
+.navbar-right {
+  font-size: 16px;
+}
+
+.marketitem img {
+  width: 165px;
+}
+
+.playersonline {
+  position: absolute;
+  color: #dedede;
+  top: 60px;
+  right: 0;
+  i {
+    padding: 0px 5px 0px 20px;
+  }
+}
+
+.green-text {
+  color: #9cac61;
+}
+
+/*********************/
+
+#page-header {
+  background-color: rgba(44, 50, 52, 0.5);
+  padding-bottom: 24px;
+  .page-title {
+    color: #fff;
+    margin: 0 0 6px;
+    font-weight: 300;
+    font-size: 38px;
+  }
+  .page-subtitle {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 300;
+  }
+}
+
+/* CARDS */
+/*.card-list {
+}
+
+.card-list__item {
+  border: 1px solid grey;
+  padding: 10px;
+  width: 200px;
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.card-list__item-image {
+  width: 100px;
+}*/
+
+/* NAVBAR */
+
+.navbar {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  /*display: flex;*/
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.navbar-spark {
+  background-color: rgba(44, 50, 52, 0.5);
+  border-color: #15272e;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  padding-top: 21px;
+  img {
+    width: 128px;
+  }
+}
+
+.navigation {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  float: right;
+  > li {
+    float: left;
+  }
+}
+
+.nav-link {
+  display: block;
+  padding: .5em 1em;
+}
+
+.navigation {
+  > li > a {
+    color: #c0c0c0;
+    border-top: 6px solid transparent;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    &#login-steam {
+      padding-top: 18px;
+    }
+  }
+  .nav-link {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+.darken-bg {
+  background-color: rgba(32, 38, 45, 0.7);
+}
+
+.badge-info {
+  background-color: #5C59ED;
+}
+
+.badge-nav {
+  font-size: 11px;
+  font-weight: 400;
+  padding: 2px 6px;
+  margin-top: -20px;
+  margin-left: -2px;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: .3em;
+  vertical-align: middle;
+  content: "";
+  border-top: .3em solid;
+  border-right: .3em solid transparent;
+  border-left: .3em solid transparent;
+}
+
+#footer {
+  margin: 20px 0 4px;
+  color: #565656;
+  a {
+    color: #565656;
+    text-decoration: none;
+    opacity: 0.7;
+  }
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+v-dialog {
+  z-index: 500 !important;
+}
+
+.header_title{
+    font-size: 3.5rem !important;
+    text-align: center;
+    border-bottom: 1px solid;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin: 0 auto 30px;
+    max-width: 540px;
+}

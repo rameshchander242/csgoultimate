@@ -1,0 +1,174 @@
+/*responsive styles*/
+@media(max-width: 1199px) {
+	.full_width {
+		width: 100% !important;
+	    max-width: none !important;
+	    flex-basis: 100% !important;
+	}
+	.left_content {
+		margin-right: 0;
+	}
+}
+
+@media(max-width: 1024px) {
+	.dropdown-toggle .profile-avatar {
+		display: inline-block;
+	}
+	#login-steam .profile-avatar {
+		display: none;
+	}
+	.navigation .with_avtar .nav-link {
+		padding: 17px;
+	}
+}
+
+@media(max-width: 991px) {
+	.text-link {
+		display: none;
+	}
+}
+
+@media(max-width: 767px) {
+	.menu_toggler,
+	.sidebar_toggler {
+		display: block;
+		min-width: 1px;		
+		margin-top: 24px;		
+	}
+	.active_sm_device {
+		display: none;
+	}
+	.menu_toggler {
+		float: right;
+	}
+	.sidebar_toggler {		
+		float: left;
+	}
+	#app-sidebar {
+		display: none;
+	}
+	#app-content {
+		width: 100%;
+		max-width: 100%;
+	}
+	.mobile_sidemenu {
+		min-height: 100vh;
+		max-height: none;
+		top: -30px;
+    	padding: 20px 0;
+    	max-width: 60%;
+    	background-color: rgba(66, 66, 66, 0.95);
+	}
+	#page-sidebar .navbar-brand {
+	    display: block;
+	}
+	#page-sidebar .navbar-brand img {
+		width: 250px;
+	    padding: 0 12px;
+	    max-width: 100%;
+	}
+	.mobile_sidemenu .nav-pills .nav-link {
+		color: #fff;
+		transition: 0.25s all ease-in-out;
+	}
+	.mobile_sidemenu .nav-pills .nav-link:hover {
+		background: rgba(0,0,0,0.2);
+	}
+	.mobile_sidemenu .nav-pills .nav-link .nav-text {
+		padding-left: 10px;
+	}
+	.navigation {
+		margin-right: 0 !important;
+	}
+
+
+    .navigation .nav-link {
+	    padding-right: 8px!important;
+	    padding-left: 8px!important;
+	}	
+	.show_user_menu {
+	    width: 100%;
+	    position: relative;
+	    top: 100%;
+	    left: 0;
+	    background: #424242;
+	    padding: 5px;
+	    display: block;
+	    /*overflow-x: auto;*/
+	}
+	.show_user_menu .navigation {
+		float: none;
+		text-align: center;
+	}
+	.show_user_menu .navigation>li {
+	    float: none;
+	    width: auto;
+	    display: inline-block;
+        margin: 0 10px;
+	}
+	.show_user_menu .navigation>li a {
+		padding: 0;
+	}
+	.inactive_sm_device {
+		display: none !important;
+	}
+	.marketplace-section-2 h2 {
+		font-size: 25px;
+	}
+	.marketplace-section-1 h3 {
+		font-size: 22px;
+	}
+	.mobile_sidemenu {
+	    display: block;
+	}
+}
+
+@media(max-width: 600px) {
+	.marketplace-social-col {
+		width: 100%;
+		border: none;
+		margin-bottom: 30px;
+	}
+	.giveaway,
+	.noti {
+		display: inline-block !important;
+	}
+}
+
+@media(max-width: 479px) {
+	#app-top .flex.pa-0.xs8 > .navigation .nav-link {
+        font-size: 12px;
+    }
+    #app-top .v-icon {
+		font-size: 18px;
+	}
+	#app-top .coin {
+		width: 18px;
+		display: block;
+		margin: 0 auto;
+	}
+	.navigation>li>a {
+	    padding-top: 20px;
+	}
+	#app-top .coinamount {
+	    font-size: 14px;
+	    padding: 0;
+	}
+	.menu_toggler,
+	.sidebar_toggler {
+		margin: 8px 0 0 0;
+	}
+	.navbar-brand {
+	    padding-top: 10px;
+	}
+	.navbar-brand img {
+	    width: 98px;
+	}
+	.table.table_right>thead>tr>th {
+	    min-width: 130px;
+	    vertical-align: top;
+	}
+	.text-link1 {
+		display: none;
+	}
+}

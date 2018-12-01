@@ -1,0 +1,54 @@
+<template>
+  <v-card>
+    <div class="player_block" :class="{active: isActive}">
+      <div class="player" style="position: relative;">
+        <div class="player-box-select"><img src="../../assets/img/select-symbol.png" alt="select player"></div>
+        <img :src="data.backgroundUrl" v-bind:alt="data.cardTypeName" class="player-card" />
+        <div class='player_details_main boost_team_detail'>
+          <div class="name">
+            <span ref="marquee" class="marquee" v-tooltip.top="'Team Name'">
+              {{data.teamName}}
+            </span>
+          </div>
+          <div class="boostpct">
+            <div v-tooltip.top="'Boost'">{{data.boostPct1}}% {{data.boostPct1Label}} boost</div>
+            <div v-tooltip.top="'Boost'">{{data.boostPct2}}% {{data.boostPct2Label}} boost</div>
+            <div v-tooltip.top="'Boost'">{{data.boostPct3}}% {{data.boostPct3Label}} boost</div>
+          </div>
+        </div>
+      </div>
+      <div class="player_block_quicksell-main w_100">
+          <div v-tooltip="'Quick Sell Value'" class="player_block_quicksell-col left-side">
+              <img src="../../assets/img/coinimg.png" alt="coin">
+              {{data.quickSellValue}}
+          </div>
+      </div>
+    </div>
+  </v-card>
+</template>
+<script>
+  export default {
+    props:{
+      data: {
+        type: Object
+      },
+      isActive: {
+        type: Boolean,
+        default: false
+      }
+    },
+    methods: {
+     
+    }
+
+  }
+</script>
+
+<style lang="scss" scoped>
+span.boost {
+    left: 6px;
+    top: 15px;
+}
+</style>
+
+

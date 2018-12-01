@@ -1,0 +1,1466 @@
+.card.csgoultimate {
+  font-family: 'Fjalla One', sans-serif;
+  color: #000;
+  text-shadow: none !important;
+  max-width: 227px;
+}
+
+  .card.csgoultimate .player-card {
+    width: 227px;
+    height: auto;
+  }
+
+  .card.csgoultimate .rating {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    border: 0 !important;
+    top: 22px;
+    left: 42px;
+    width: auto !important;
+    font-weight: bold;
+  }
+
+  .card.csgoultimate.onestowatch {
+    color: #C7CFDB !important;
+  }
+
+  .card.csgoultimate.bluepurple {
+    color: #FFFFFF !important;
+  }
+
+  .card.csgoultimate.premiumsbc {
+    color: #FFFFFF !important;
+  }
+
+  .card.csgoultimate.whitepurple {
+    color: #FFFFFF !important;
+  }
+
+    .card.csgoultimate.whitepurple .name,
+    .card.csgoultimate.whitepurple .chemistry,
+    .card.csgoultimate.whitepurple .chemstyle {
+      color: #754196 !important;
+    }
+
+  .card.csgoultimate.redgold {
+    color: #846525 !important;
+  }
+
+  .card.csgoultimate.redsilver {
+    color: #5F6364 !important;
+  }
+
+  .card.csgoultimate.redbronze {
+    color: #7D5134 !important;
+  }
+
+    .card.csgoultimate.redgold .rating,
+    .card.csgoultimate.redgold .position,
+    .card.csgoultimate.redsilver .rating,
+    .card.csgoultimate.redsilver .position,
+    .card.csgoultimate.redbronze .rating,
+    .card.csgoultimate.redbronze .position {
+      color: #FFFFFF !important;
+    }
+
+  .card.csgoultimate.goldrare {
+    color: #452D19 !important;
+  }
+
+  .card.csgoultimate.silverrare {
+    color: #393C43 !important;
+  }
+
+  .card.csgoultimate.bronzerare {
+    color: #4A3019 !important;
+  }
+
+  .card.csgoultimate.legend {
+    color: #5B4722 !important;
+  }
+
+  .card.csgoultimate.goldif {
+    color: #F9E99E !important;
+  }
+
+  .card.csgoultimate.silverif {
+    color: #C4C8C9 !important;
+  }
+
+  .card.csgoultimate.bronzeif {
+    color: #B78553 !important;
+  }
+
+  .card.csgoultimate.purple {
+    color: #9D79E3 !important;
+  }
+
+    .card.csgoultimate.purple .rating,
+    .card.csgoultimate.purple .position {
+      color: #000000 !important;
+    }
+
+  .card.csgoultimate.pink {
+    color: #E574A0 !important;
+  }
+
+    .card.csgoultimate.pink .rating,
+    .card.csgoultimate.pink .position {
+      color: #000000 !important;
+    }
+
+  .card.csgoultimate.pinkgold {
+    color: #E574A0 !important;
+  }
+
+    .card.csgoultimate.pinkgold .rating,
+    .card.csgoultimate.pinkgold .position,
+    .card.csgoultimate.pinkgold .name,
+    .card.csgoultimate.pinkgold .chemstyle {
+      color: #000000 !important;
+    }
+
+  .card.csgoultimate.blackgold {
+    color: #FFFFFF !important;
+  }
+
+    .card.csgoultimate.blackgold .name,
+    .card.csgoultimate.blackgold .chemistry,
+    .card.csgoultimate.blackgold .chemstyle {
+      color: #000000 !important;
+    }
+
+  .card.csgoultimate.proplayer {
+    color: #66CDCC !important;
+  }
+
+    .card.csgoultimate.proplayer .rating,
+    .card.csgoultimate.proplayer .position {
+      color: #000000 !important;
+    }
+
+  .card.csgoultimate.promo {
+    color: #1A1381 !important;
+  }
+
+    .card.csgoultimate.promo .name,
+    .card.csgoultimate.promo .chemstyle,
+    .card.csgoultimate.promo .chemistry {
+      color: #FFFFFF !important;
+    }
+
+  .card.csgoultimate.promo2 {
+    color: #FFFFFF !important;
+  }
+
+    .card.csgoultimate.promo2 .rating,
+    .card.csgoultimate.promo2 .position {
+      color: #145C9C !important;
+    }
+
+  .card.csgoultimate.motm {
+    color: #FFFFFF !important;
+  }
+
+    .card.csgoultimate.motm .rating,
+    .card.csgoultimate.motm .position {
+      color: #8A2C00 !important;
+    }
+
+  .card.csgoultimate.bluemotm {
+    color: #FFFFFF !important;
+  }
+
+    .card.csgoultimate.bluemotm .rating,
+    .card.csgoultimate.bluemotm .position {
+      color: #003482 !important;
+    }
+
+  .card.csgoultimate.redmotm {
+    color: #FFFFFF !important;
+  }
+
+    .card.csgoultimate.redmotm .rating,
+    .card.csgoultimate.redmotm .position {
+      color: #7A0600 !important;
+    }
+
+  .card.csgoultimate.green {
+    color: #1B6B34 !important;
+  }
+
+    .card.csgoultimate.green .rating,
+    .card.csgoultimate.green .position {
+      color: #104921 !important;
+    }
+
+  .card.csgoultimate.halloween {
+    color: #D36C12 !important;
+  }
+
+    .card.csgoultimate.halloween .name,
+    .card.csgoultimate.halloween .chemstyle,
+    .card.csgoultimate.halloween .chemistry {
+      color: #000000 !important;
+    }
+
+  .card.csgoultimate.movember {
+    color: #AEA590 !important;
+  }
+
+    .card.csgoultimate.movember .rating,
+    .card.csgoultimate.movember .position,
+    .card.csgoultimate.movember .name,
+    .card.csgoultimate.movember .chemstyle,
+    .card.csgoultimate.movember .chemistry {
+      color: #3C2313 !important;
+    }
+
+  .card.csgoultimate.special {
+    color: #EDF5F5 !important;
+  }
+
+  .card.csgoultimate.imotm {
+    color: #EDF5F5 !important;
+  }
+
+  .card.csgoultimate.toty {
+    color: #F9E99E !important;
+  }
+
+  .card.csgoultimate.goldblue {
+    color: #F9E99E !important;
+  }
+
+  .card.csgoultimate.silverblue {
+    color: #E1E9EE !important;
+  }
+
+  .card.csgoultimate.bronzeblue {
+    color: #DEB89E !important;
+  }
+
+    .card.csgoultimate.goldblue .name,
+    .card.csgoultimate.silverblue .name,
+    .card.csgoultimate.bronzeblue .name,
+    .card.csgoultimate.goldblue .chemistry,
+    .card.csgoultimate.silverblue .chemistry,
+    .card.csgoultimate.bronzeblue .chemistry,
+    .card.csgoultimate.goldblue .chemstyle,
+    .card.csgoultimate.silverblue .chemstyle,
+    .card.csgoultimate.bronzeblue .chemstyle {
+      color: #000C35 !important;
+    }
+
+  .card.csgoultimate.goldif .rating,
+  .card.csgoultimate.goldif .position {
+    color: #4D3624;
+  }
+
+  .card.csgoultimate.goldif .name {
+    color: #F9E99E;
+  }
+
+  .card.csgoultimate.silverif .name {
+    color: #C4C8C9;
+  }
+
+  .card.csgoultimate.bronzeif .name {
+    color: #B78553;
+  }
+
+  .card.csgoultimate.silverif .rating,
+  .card.csgoultimate.silverif .position {
+    color: #3D3E42;
+  }
+
+  .card.csgoultimate.bronzeif .rating,
+  .card.csgoultimate.bronzeif .position {
+    color: #452B1A;
+  }
+
+  .card.csgoultimate .position {
+    top: 63px;
+    left: 36px;
+    font-size: 20px;
+    width: 47px;
+    line-height: 22px;
+  }
+
+  .card.csgoultimate .avatarholder {
+    top: 41px;
+    left: 88px;
+    width: 133px;
+    height: 133px;
+    position: absolute;
+  }
+
+  .card.csgoultimate .playerImage {
+    top: 0;
+    left: 0;
+    width: 133px;
+    height: 133px;
+  }
+
+  .card.csgoultimate .clubbadge {
+    top: 90px !important;
+    left: 39px;
+    width: 46px;
+    height: 46px;
+  }
+
+  .card.csgoultimate .nationflag {
+    top: 140px !important;
+    left: 38px;
+    height: 29px;
+    width: auto;
+  }
+
+  .card.csgoultimate .attributes {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .card.csgoultimate .pace {
+    top: 205px;
+    left: 36px;
+  }
+
+  .card.csgoultimate .dribbling {
+    top: 205px;
+    left: 136px;
+  }
+
+  .card.csgoultimate .shooting {
+    top: 232px;
+    left: 36px;
+  }
+
+  .card.csgoultimate .defending {
+    top: 232px;
+    left: 136px;
+  }
+
+  .card.csgoultimate .coachMiddle {
+    top: 232px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+  }
+
+  .card.csgoultimate .passing {
+    top: 258px;
+    left: 36px;
+  }
+
+  .card.csgoultimate .heading {
+    top: 258px;
+    left: 136px;
+  }
+
+  .card.csgoultimate .name {
+    line-height: 28px;
+    text-transform: uppercase;
+    top: 174px;
+    left: 0px;
+    width: 100%;
+    font-size: 22px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+  }
+
+  .card.csgoultimate .chemstyle {
+    line-height: 28px;
+    text-transform: uppercase;
+    top: 293px;
+    left: 5px;
+    width: 220px;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+  }
+
+  .card.csgoultimate .chemstylename {
+    padding-left: 4px;
+  }
+
+.scard.csgoultimate {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-shadow: none !important;
+  height: 200px;
+  width: 135px;
+}
+
+  .scard.csgoultimate.legend {
+    color: #6b4a15;
+  }
+
+.builder .card.csgoultimate {
+  height: 200px;
+  width: 135px;
+  margin-left: 2px;
+  margin-top: -6px;
+}
+
+.scard.csgoultimate .player-card {
+  height: 200px;
+  width: 135px;
+}
+
+.scard.csgoultimate .rating {
+  font-size: 21px;
+  top: -13px;
+  left: 10px;
+}
+
+.scard.csgoultimate .ratingholder {
+  border: 0;
+}
+
+.scard.csgoultimate .position {
+  top: 33px;
+  left: 17px;
+  font-size: 14px;
+  width: 40px;
+  font-weight: bold;
+}
+
+.scard.csgoultimate.goldrare {
+  color: #452D19 !important;
+}
+
+.scard.csgoultimate.silverrare {
+  color: #393C43 !important;
+}
+
+.scard.csgoultimate.bronzerare {
+  color: #4A3019 !important;
+}
+
+.scard.csgoultimate.legend {
+  color: #5B4722 !important;
+}
+
+.scard.csgoultimate.goldif {
+  color: #F9E99E !important;
+}
+
+.scard.csgoultimate.silverif {
+  color: #C4C8C9 !important;
+}
+
+.scard.csgoultimate.bronzeif {
+  color: #B78553 !important;
+}
+
+.scard.csgoultimate.special {
+  color: #EDF5F5 !important;
+}
+
+.scard.csgoultimate.imotm {
+  color: #EDF5F5 !important;
+}
+
+.scard.csgoultimate.goldblue {
+  color: #EAD36E !important;
+}
+
+.scard.csgoultimate.silverblue {
+  color: #E1E9EE !important;
+}
+
+.scard.csgoultimate.bronzeblue {
+  color: #DEB89E !important;
+}
+
+  .scard.csgoultimate.goldblue .name,
+  .scard.csgoultimate.silverblue .name,
+  .scard.csgoultimate.bronzeblue .name {
+    color: #000C35 !important;
+  }
+
+.scard.csgoultimate .clubbadge {
+  top: 53px !important;
+  left: 25px;
+  width: 25px;
+  height: 25px;
+}
+
+.scard.csgoultimate .nationflag {
+  top: 81px !important;
+  left: 25px;
+  width: 25px;
+  height: auto;
+}
+
+.scard.csgoultimate .avatarholder {
+  top: 26px;
+  left: 56px;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.scard.csgoultimate .playerImage {
+  top: 0;
+  left: 0;
+  width: 75px;
+  height: 75px;
+}
+
+.scard.csgoultimate .name {
+  line-height: 28px;
+  text-transform: uppercase;
+  top: 95px;
+  width: 100%;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.scard.csgoultimate .attributes {
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+}
+
+.scard.csgoultimate .pace {
+  top: 116px;
+  left: 24px;
+}
+
+.scard.csgoultimate .dribbling {
+  top: 116px;
+  left: 79px;
+}
+
+.scard.csgoultimate .shooting {
+  top: 132px;
+  left: 24px;
+}
+
+.scard.csgoultimate .defending {
+  top: 132px;
+  left: 79px;
+}
+
+.scard.csgoultimate .passing {
+  top: 148px;
+  left: 24px;
+}
+
+.scard.csgoultimate .heading {
+  top: 148px;
+  left: 79px;
+}
+
+.scard.csgoultimate .chemistry {
+  top: 165px;
+  left: 60px;
+  position: absolute;
+  text-shadow: 0px 0px 0px;
+  font-weight: bold;
+  font-family: 'Knul-Bold';
+  font-size: 13px;
+}
+
+.scard.csgoultimate .loyalty {
+  top: 164px;
+  left: 40px;
+}
+
+.builder-background.squad.csgoultimate {
+  background: url(//www.hltv.pro/cards/images/fut17/cardholder.png?172);
+  height: 200px;
+  width: 135px;
+  left: -3px;
+  top: -11px;
+}
+
+.builder-background.sub.csgoultimate {
+  background: url(//www.hltv.pro/cards/images/fut17/cardholder.png?172);
+  height: 200px;
+  width: 135px;
+  margin-left: -3px;
+  margin-top: -11px;
+}
+
+.card.csgoultimate .pace:after,
+.card.csgoultimate .shooting:after,
+.card.csgoultimate .passing:after,
+.card.csgoultimate .dribbling:after,
+.card.csgoultimate .defending:after,
+.card.csgoultimate .coachMiddle:after,
+.card.csgoultimate .heading:after {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 21px;
+}
+
+.scard.csgoultimate .pace:after,
+.scard.csgoultimate .shooting:after,
+.scard.csgoultimate .passing:after,
+.scard.csgoultimate .dribbling:after,
+.scard.csgoultimate .defending:after,
+.scard.csgoultimate .heading:after {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 14px;
+}
+
+.headline {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #4c4c4c;
+}
+
+.scard .ratingholder {
+  top: 30px;
+  left: 15px;
+  width: 27px;
+  height: 13px;
+  border-right: 1px solid white;
+  position: absolute;
+}
+
+.card .rating {
+  position: absolute;
+  text-align: center;
+  font-weight: 500;
+}
+
+.card .position {
+  position: absolute;
+  text-align: center;
+}
+
+.card .name {
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+}
+
+  .card .name .marquee {
+    position: relative;
+    white-space: nowrap;
+  }
+
+.card .pace {
+  position: absolute;
+}
+
+  .card .pace:after {
+    content: ' RIF';
+    font-weight: 400;
+  }
+
+.card .gk .pace:after {
+  content: ' DIV';
+  font-weight: 400;
+}
+
+.card .shooting {
+  position: absolute;
+}
+
+.card .coachMiddle {
+  position: absolute;
+}
+
+.card .shooting:after {
+  content: ' CLU';
+  font-weight: 400;
+}
+
+.card .gk .shooting:after {
+  content: ' HAN';
+  font-weight: 400;
+}
+
+.card .passing {
+  position: absolute;
+}
+
+  .card .passing:after {
+    content: ' PIS';
+    font-weight: 400;
+  }
+
+.card .gk .passing:after {
+  content: ' KIC';
+  font-weight: 400;
+}
+
+.card .dribbling {
+  position: absolute;
+}
+
+  .card .dribbling:after {
+    content: ' AWP';
+    font-weight: 400;
+  }
+
+.card .gk .dribbling:after {
+  content: ' REF';
+  font-weight: 400;
+}
+
+.card .defending {
+  position: absolute;
+}
+
+  .card .defending:after {
+    content: ' ENT';
+    font-weight: 400;
+  }
+
+.card .gk .defending:after {
+  content: ' SPE';
+  font-weight: 400;
+}
+
+.card .heading {
+  position: absolute;
+}
+
+  .card .heading:after {
+    content: ' IQ';
+    font-weight: 400;
+  }
+
+.card.fifa13 .heading:after,
+.card.fifa14 .heading:after {
+  content: ' HEA';
+  font-weight: 400;
+}
+
+.card .gk .heading:after {
+  content: ' POS';
+  font-weight: 400;
+}
+
+.card .white {
+  color: #FFF;
+}
+
+.card.goldreg,
+.scard.goldreg {
+  color: #4D411D !important;
+  text-shadow: 0px 0px 0.01px rgba(77, 65, 29, 1) !important;
+}
+
+.card.silverreg,
+.scard.silverreg {
+  color: #353535 !important;
+  text-shadow: 0px 0px 0.01px rgba(53, 53, 53, 1) !important;
+}
+
+.card.bronzereg,
+.scard.bronzereg {
+  color: #312D19 !important;
+  text-shadow: 0px 0px 0.01px rgba(0, 0, 0, 1) !important;
+}
+
+.goldif {
+  color: rgb(255, 203, 53) !important;
+  text-shadow: 0px 0px 2px rgba(255, 231, 153, 1) !important;
+}
+
+.silverif {
+  color: #C5CCCE !important;
+  text-shadow: 0px 0px 2px rgba(189, 189, 189, 1) !important;
+}
+
+.bronzeif {
+  color: #9E714D !important;
+  text-shadow: 0px 0px 0.2px rgba(196, 163, 136, 1) !important;
+}
+
+.card.blue {
+  color: #FFF;
+}
+
+.card.special {
+  color: #FFF;
+}
+
+.card.orange {
+  color: #FFF;
+}
+
+.card.purple {
+  color: #FFF;
+}
+
+.card.goldblue {
+  color: #FFF;
+}
+
+.card.silverblue {
+  color: #FFF;
+}
+
+.card.bronzeblue {
+  color: #FFF;
+}
+
+.scard {
+  display: block;
+  font-size: 14px;
+  text-shadow: 0px 0px 1px rgba(255, 255, 255, 1);
+  top: -5px;
+  left: -5px;
+  width: 150px;
+  height: 180px;
+}
+
+  .scard.fifa13,
+  .scard.fifa14,
+  .scard.fifa15,
+  .scard.fifa16 {
+    color: #FFFFFF;
+  }
+
+.fifa14.red,
+.fifa14.legend,
+.fifa15.red,
+.fifa15.legend {
+  color: #9B8028;
+  text-shadow: 0px 0px 2px rgba(155, 128, 40, 0.5);
+}
+
+.builder .player-card,
+.club .player-card {
+  height: 195px;
+  width: 140px;
+}
+
+.scard .clubbadge {
+  top: 53px;
+  left: 15px;
+  width: 25px;
+  height: 25px;
+}
+
+.scard .nationflag {
+  top: 81px;
+  left: 15px;
+  width: 25px;
+}
+
+.scard.worldcup .nationflag {
+  -webkit-mask-image: url(http://wefut.com/assets/images/worldcup/mask.png);
+  -webkit-mask-size: 100%;
+}
+
+.scard .playerImage {
+  top: 30px;
+  left: 64px;
+  width: 70px;
+  height: 70px;
+}
+
+.goldif .playerImage {
+  left: 63px;
+}
+
+.scard .ratingholder {
+  top: 30px;
+  left: 15px;
+  width: 27px;
+  height: 13px;
+  border-right: 1px solid white;
+  position: absolute;
+}
+
+.scard .rating {
+  font-size: 21px;
+  top: -5px;
+}
+
+.scard .position {
+  top: 27px;
+  left: 47px;
+  font-size: 12px;
+}
+
+.scard .name {
+  line-height: 28px;
+  text-transform: uppercase;
+  top: 7px;
+  left: 20px;
+  width: 100px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.scard .nonrare {
+  line-height: 28px;
+  text-transform: uppercase;
+  top: 4px;
+  left: 20px;
+  width: 100px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.scard .attributes {
+  font-size: 12px;
+}
+
+.scard .chemistry {
+  top: 100px;
+  left: 74px;
+  position: absolute;
+  text-shadow: 0px 0px 0px;
+  font-weight: 700;
+}
+
+  .scard .chemistry:before {
+    content: 'Chem: ';
+  }
+
+.red .chemistry,
+.legend .chemistry {
+  top: 98px
+}
+
+.scard .loyalty {
+  top: 99px;
+  left: 20px;
+  position: absolute;
+  text-shadow: 0px 0px 0px;
+  font-weight: 700;
+}
+
+.red .loyalty,
+.legend .loyalty {
+  top: 97px;
+}
+
+.scard .pace {
+  top: 120px;
+  left: 26px;
+}
+
+.scard .shooting {
+  top: 140px;
+  left: 26px;
+}
+
+.scard .passing {
+  top: 159px;
+  left: 26px;
+}
+
+.scard .dribbling {
+  top: 120px;
+  left: 74px;
+}
+
+.scard .defending {
+  top: 140px;
+  left: 74px;
+}
+
+.scard .heading {
+  top: 159px;
+  left: 74px;
+}
+
+.scard .red .pace,
+.scard.legend .pace {
+  top: 116px;
+  left: 26px;
+}
+
+.scard .red .shooting,
+.scard.legend .shooting {
+  top: 135px;
+  left: 26px;
+}
+
+.scard .red .passing,
+.scard.legend .passing {
+  top: 154px;
+  left: 26px;
+}
+
+.scard .red .dribbling,
+.scard.legend .dribbling {
+  top: 116px;
+  left: 74px;
+}
+
+.scard .red .defending,
+.scard.legend .defending {
+  top: 135px;
+  left: 74px;
+}
+
+.scard .red .heading,
+.scard.legend .heading {
+  top: 154px;
+  left: 74px;
+}
+
+.player .card.fifa13 .clubbadge {
+  top: 113px;
+  left: 25px;
+  width: 60px;
+  height: 60px;
+}
+
+.player .card.fifa13 .nationflag {
+  top: 180px;
+  left: 25px;
+  width: 60px;
+  height: 36px;
+}
+
+.player .card.fifa13 .playerImage {
+  top: 95px;
+  left: 88px;
+  width: 140px;
+  height: 140px;
+}
+
+.player .card.fifa13 .rating {
+  top: 30px;
+  left: 15px;
+  width: 64px;
+  font-size: 50px;
+  border: 0;
+}
+
+.player .card.fifa13 .position {
+  top: 65px;
+  left: 15px;
+  width: 64px;
+}
+
+.player .card.fifa13 .name {
+  top: 22px;
+  left: 105px;
+  width: 120px;
+  font-size: 20px;
+}
+
+.player .card.fifa13 .pace {
+  top: 244px;
+  left: 26px;
+}
+
+.player .card.fifa13 {
+  top: 280px;
+  left: 26px;
+}
+
+  .player .card.fifa13 .passing {
+    top: 316px;
+    left: 26px;
+  }
+
+  .player .card.fifa13 .dribbling {
+    top: 244px;
+    left: 130px;
+  }
+
+  .player .card.fifa13 .defending {
+    top: 280px;
+    left: 130px;
+  }
+
+  .player .card.fifa13 .heading {
+    top: 316px;
+    left: 130px;
+  }
+
+.scard.fifa13 .clubbadge {
+  top: 73px;
+  left: 15px;
+  width: 25px;
+  height: 25px;
+}
+
+.scard.fifa13 .nationflag {
+  top: 106px;
+  left: 15px;
+  width: 25px;
+}
+
+.scard.fifa13 .playerImage {
+  top: 49px;
+  left: 54px;
+  width: 80px;
+  height: 80px;
+}
+
+.scard.fifa13 .ratingholder {
+  top: 17px;
+  left: 12px;
+  width: 27px;
+  height: 13px;
+  position: absolute;
+  border: 0;
+}
+
+.scard.fifa13 .rating {
+  font-size: 26px;
+}
+
+.scard.fifa13 .position {
+  top: 30px;
+  left: 20px;
+  font-size: 12px;
+}
+
+.scard.fifa13 .name {
+  line-height: 28px;
+  text-transform: uppercase;
+  top: 7px;
+  left: 48px;
+  width: 100px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.scard.fifa13 .pace {
+  top: 130px;
+  left: 16px;
+}
+
+.scard.fifa13 .shooting {
+  top: 150px;
+  left: 16px;
+}
+
+.scard.fifa13 .passing {
+  top: 169px;
+  left: 16px;
+}
+
+.scard.fifa13 .dribbling {
+  top: 130px;
+  left: 79px;
+}
+
+.scard.fifa13 .defending {
+  top: 150px;
+  left: 79px;
+}
+
+.scard.fifa13 .heading {
+  top: 169px;
+  left: 79px;
+}
+
+.player .card {
+  display: block;
+  font-size: 22px;
+  width: 238px;
+  color: #FFF;
+  text-shadow: 0px 0px 2px rgba(255, 255, 255, 1);
+}
+
+  .player .card.red,
+  .player .card.legend {
+    display: block;
+    font-size: 22px;
+    width: 238px;
+    color: #9B8028;
+    text-shadow: 0px 0px 2px rgba(155, 128, 40, 0.5);
+  }
+
+.player .player-card {
+  width: 238px;
+  height: 354px;
+}
+
+.player .card .clubbadge {
+  top: 102px;
+  left: 42px;
+  width: 45px;
+  height: 45px;
+}
+
+.player .red .clubbadge,
+.player .legend .clubbadge {
+  top: 92px !important;
+}
+
+.player .card .nationflag {
+  top: 151px;
+  left: 42px;
+  width: 45px;
+  height: 27px;
+}
+
+.player .worldcup .nationflag {
+  -webkit-mask-image: url(http://static.wefut.com/assets/images/worldcup/mask.png);
+  -webkit-mask-size: 100%;
+}
+
+.player .red .nationflag,
+.player .legend .nationflag {
+  top: 146px !important;
+}
+
+.player .card .playerImage {
+  top: 55px;
+  left: 100px;
+  width: 128px;
+  height: 128px;
+}
+
+.player .goldif .playerImage {
+  left: 98px;
+}
+
+.player .card .rating {
+  top: 56px;
+  left: 19px;
+  width: 55px;
+  height: 22px;
+  font-size: 36px;
+  border-right: 1px solid white;
+}
+
+.player .red .rating,
+.player .legend .rating {
+  top: 58px;
+  font-size: 33px;
+}
+
+.player .card .position {
+  top: 56px;
+  left: 77px;
+  font-size: 20px;
+  width: 46px;
+  line-height: 22px;
+}
+
+.player .red .position,
+.player .legend .position {
+  top: 58px
+}
+
+.player .card .name {
+  line-height: 28px;
+  text-transform: uppercase;
+  top: 24px;
+  left: 29px;
+  width: 180px;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.player .card .nonrare {
+  line-height: 28px;
+  text-transform: uppercase;
+  top: 20px;
+  left: 29px;
+  width: 180px;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.player .card .upgrades {
+  position: absolute;
+  font-size: 12px;
+  top: 182px;
+}
+
+  .player .card .upgrades .paceupgrade {
+    left: 50px;
+    position: absolute;
+    width: 70px;
+  }
+
+  .player .card .upgrades .shootingupgrade {
+    left: 50px;
+    top: 17px;
+    position: absolute;
+    width: 70px;
+  }
+
+  .player .card .upgrades .passingupgrade {
+    left: 100px;
+    position: absolute;
+    width: 70px;
+  }
+
+  .player .card .upgrades .dribblingupgrade {
+    left: 100px;
+    position: absolute;
+    width: 70px;
+    top: 17px;
+  }
+
+  .player .card .upgrades .defendingupgrade {
+    left: 150px;
+    position: absolute;
+    width: 70px;
+  }
+
+  .player .card .upgrades .headingupgrade {
+    left: 150px;
+    position: absolute;
+    width: 70px;
+    top: 17px;
+  }
+
+.player .card .paceupgrade:after {
+  content: ' PAC';
+  font-weight: 400;
+}
+
+.player .card .gk .paceupgrade:after {
+  content: ' DIV';
+  font-weight: 400;
+}
+
+.player .card .shootingupgrade:after {
+  content: ' SHO';
+  font-weight: 400;
+}
+
+.player .card .gk .shootingupgrade:after {
+  content: ' HAN';
+  font-weight: 400;
+}
+
+.player .card .passingupgrade:after {
+  content: ' PAS';
+  font-weight: 400;
+}
+
+.player .card .gk .passingupgrade:after {
+  content: ' KIC';
+  font-weight: 400;
+}
+
+.player .card .dribblingupgrade:after {
+  content: ' DRI';
+  font-weight: 400;
+}
+
+.player .card .gk .dribblingupgrade:after {
+  content: ' REF';
+  font-weight: 400;
+}
+
+.player .card .defendingupgrade:after {
+  content: ' DEF';
+  font-weight: 400;
+}
+
+.player .card .gk .defendingupgrade:after {
+  content: ' SPE';
+  font-weight: 400;
+}
+
+.player .card .headingupgrade:after {
+  content: ' HEA';
+  font-weight: 400;
+}
+
+.player .card .gk .headingupgrade:after {
+  content: ' POS';
+  font-weight: 400;
+}
+
+.player .card .attributes {
+  font-weight: 500;
+}
+
+.player .card .pace {
+  top: 226px;
+  left: 46px;
+}
+
+.player .card .shooting {
+  top: 261px;
+  left: 46px;
+}
+
+.player .card .passing {
+  top: 296px;
+  left: 46px;
+}
+
+.player .card .dribbling {
+  top: 226px;
+  left: 130px;
+}
+
+.player .card .defending {
+  top: 261px;
+  left: 130px;
+}
+
+.player .card .heading {
+  top: 296px;
+  left: 130px;
+}
+
+.player .red .pace,
+.player .legend .pace {
+  top: 219px;
+  left: 46px;
+}
+
+.player .red .shooting,
+.player .legend .shooting {
+  top: 253px;
+  left: 46px;
+}
+
+.player .red .passing,
+.player .legend .passing {
+  top: 287px;
+  left: 46px;
+}
+
+.player .red .dribbling,
+.player .legend .dribbling {
+  top: 219px;
+  left: 130px;
+}
+
+.player .red .defending,
+.player .legend .defending {
+  top: 253px;
+  left: 130px;
+}
+
+.player .red .heading,
+.player .legend .heading {
+  top: 287px;
+  left: 130px;
+}
+
+@font-face {
+  font-family: 'Knul-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/assets/fonts/knul-bold-webfont.eot?');
+  src: url('/assets/fonts/knul-bold-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/knul-bold-webfont.woff?') format('woff'), url('/assets/fonts/knul-bold-webfont.ttf?') format('truetype'), url('/assets/fonts/knul-bold-webfont.svg#svgFontName') format('svg');
+}
+
+@font-face {
+  font-family: 'Knul-Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/assets/fonts/knul-medium-webfont.eot?');
+  src: url('/assets/fonts/knul-medium-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/knul-medium-webfont.woff?') format('woff'), url('/assets/fonts/knul-medium-webfont.ttf?') format('truetype'), url('/assets/fonts/knul-medium-webfont.svg#svgFontName') format('svg');
+}
+
+@font-face {
+  font-family: 'Knul-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/assets/fonts/knul-regular-webfont.eot?');
+  src: url('/assets/fonts/knul-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/knul-regular-webfont.woff?') format('woff'), url('/assets/fonts/knul-regular-webfont.ttf?') format('truetype'), url('/assets/fonts/knul-regular-webfont.svg#svgFontName') format('svg');
+}
